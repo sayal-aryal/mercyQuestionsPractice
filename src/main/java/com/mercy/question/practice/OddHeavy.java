@@ -4,7 +4,6 @@
  */
 package com.mercy.question.practice;
 
-import static com.mercy.question.practice.NormalNumber.isNormal;
 
 /**
  *

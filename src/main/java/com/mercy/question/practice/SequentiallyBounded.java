@@ -11,7 +11,11 @@ package com.mercy.question.practice;
 public class SequentiallyBounded {
 
     public static void main(String args[]) {
-        System.out.println(isSequentiallyBounded(new int[]{0,1}));
+        System.out.println(isSequentiallyBounded(new int[]{0, 1})); // return 0 
+        System.out.println(isSequentiallyBounded(new int[]{1, 2})); // return 0 
+        System.out.println(isSequentiallyBounded(new int[]{}));// return 1 
+        System.out.println(isSequentiallyBounded(new int[]{5, 5, 5, 5}));// return 1 
+        System.out.println(isSequentiallyBounded(new int[]{5, 5, 5, 2, 5})); // return 0 
     }
 
     public static int isSequentiallyBounded(int[] a) {

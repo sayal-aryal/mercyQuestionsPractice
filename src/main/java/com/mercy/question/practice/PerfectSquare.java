@@ -1,12 +1,11 @@
-package com.mercy.question.practice;
-
-///*
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-// */
-//package com.mycompany.test.project;
+//package com.mercy.question.practice;
 //
-//import static com.mycompany.test.project.NUpcount.getUpcount;
+/////*
+//// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+//// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+//// */
+//package com.mycompany.test.project;
+////
 //
 ///**
 // *

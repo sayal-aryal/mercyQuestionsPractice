@@ -16,25 +16,24 @@ package com.mercy.question.practice;
 public class Vesuvian {
 
     public static void main(String args[]) {
-        System.out.println("Is Vesuvian Array: " + isVesuvian(50));
-        System.out.println("Is Vesuvian Array: " + isVesuvian(65));
-        System.out.println("Is Vesuvian Array: " + isVesuvian(85));
+        System.out.println("Is Vesuvian Array: " + isVesuvian(50)); // return 1
+        System.out.println("Is Vesuvian Array: " + isVesuvian(65)); // return 1
+        System.out.println("Is Vesuvian Array: " + isVesuvian(85)); // return 1
+        System.out.println("Is Vesuvian Array: " + isVesuvian(6)); // return 0
     }
 
     public static int isVesuvian(int a) {
+        int firstNumber = 0;
+        int secondNumber = 0;
         for (int i = 1; i < a; i++) {
-//int isNumberSquare;
-            for (int j = 1; j <= i; j++) {
-                if (i/j == j) {
-
-                    for (int k = 1; k <= j; k++) {
-                        if (j / k == k) {
-                            if (i + j == a) {
-                                return 1;
-                            }
-                        }
-                    }
+            firstNumber = i * i;
+            for (int j = 1; j < a; j++) {
+                secondNumber = j * j;
+                int number = firstNumber + secondNumber;
+                if (number == a) {
+                    return 1;
                 }
+
             }
         }
         return 0;

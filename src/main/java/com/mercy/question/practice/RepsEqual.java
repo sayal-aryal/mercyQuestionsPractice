@@ -15,7 +15,7 @@ public class RepsEqual {
 
     public static void main(String args[]) {
         int number = 32053;
-        System.out.println("Is the array are in same order: " + repsEqual(new int[]{0, 3, 2, 0, 5, 3}, number));
+        System.out.println("reps Equal " + repsEqual(new int[]{0, 3, 2, 0, 5, 3}, number));
     }
 
     public static int repsEqual(int[] givenArray, int number) {
